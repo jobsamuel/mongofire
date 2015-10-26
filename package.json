@@ -1,0 +1,34 @@
+{
+  "name": "mongofire",
+  "version": "1.0.0",
+  "description": "Export collections from MongoDB to Firebase",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node_modules/.bin/babel mongofire.js -o index.js",
+    "watch": "node_modules/.bin/babel mongofire.js -w -o index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobsamuel/mongofire.git"
+  },
+  "keywords": [
+    "firebase",
+    "exporter",
+    "mongodb",
+    "json",
+    "db"
+  ],
+  "author": "Jobsamuel Núñez <jobsamuel.nunez@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jobsamuel/mongofire/issues"
+  },
+  "homepage": "https://github.com/jobsamuel/mongofire#readme",
+  "dependencies": {
+    "babel": "^5.8.29",
+    "firebase": "^2.3.1",
+    "mongodb": "^2.0.46"
+  }
+}
